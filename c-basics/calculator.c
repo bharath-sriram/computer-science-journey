@@ -22,14 +22,6 @@ float divide(float a, float b){
     }
 }
 
-float rise_to_power(float a, float b){
-    return pow(a,b);
-}
-
-float square_root(float a){
-    return sqrt(a);
-}
-
 int main(){
     int choice;
     float num1, num2, num;
@@ -76,9 +68,11 @@ int main(){
             printf("Invalid choice.\n");
         }
         printf("Do you want to continue?");
-        scanf("%c", &repeat);
+        scanf(" %c", &repeat);
 
     }
     printf("Goodbye!\n");
     return 0;
 }
+
+// Updated on June 4th 2026.
