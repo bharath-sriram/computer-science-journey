@@ -11,7 +11,7 @@ A. C Programs: Recently made a basic calculator with arithmetic operations and s
    4. Division
    5. Exponential
    6. Square root
-   Note: Removed unnecessary lines and maybe add some features in future.
+Note: Removed unnecessary lines and maybe add some features in future.
 
 B. Python Programs: Made a LLM AI model using Google API key.
-   Note: Made this to see and learn how to make basic LLMs and how they works.
+Note: Made this to see and learn how to make basic LLMs and how they works.
