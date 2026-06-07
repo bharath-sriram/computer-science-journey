@@ -5,6 +5,7 @@
 3. CS50x exercises (will be uploaded soon)
 
 A. C Programs:
+   
    a. Recently made a basic calculator with arithmetic operations and some scientific operations like:
    1. Addition
    2. Subtraction
@@ -14,6 +15,7 @@ A. C Programs:
    6. Square root
 
 Note: Removed unnecessary lines and maybe add some features in future.
+   
    b. Made a basic interactive factorial program
 
 B. Python Programs: Made a LLM AI model using Google API key.
