@@ -1,6 +1,6 @@
 from google import genai
 
-client = genai.Client(api_key = "")
+client = genai.Client(api_key = "") #Enter your Google API key here.
 
 print("----------AI (LLM) Chatbot Test----------")
 
