@@ -53,7 +53,7 @@ int main(){
                     printf("Result = %.3f\n", divide(num1, num2));
                     break;
                 case 5:
-                    printf("Result = %.3f\n", rise_to_power(num1, num2));
+                    printf("Result = %.3f\n", pow(num1, num2));
                     break;
             }        
         } else if (choice == 6){
@@ -62,13 +62,13 @@ int main(){
             if (num < 0){
                 printf("Input number should be greater than 0.\n");
             } else{
-                printf("Result = %.2f\n", square_root(num));
+                printf("Result = %.2f\n", sqrt(num));
             }
         } else{
             printf("Invalid choice.\n");
         }
         printf("Do you want to continue?");
-        scanf(" %c", &repeat);
+        scanf(" %c", &repeat); //Ignores or skips that newline character left in the input buffer by previous scanf.
 
     }
     printf("Goodbye!\n");
